@@ -1,0 +1,31 @@
+ node scripts/2-deploy-drop.js 
+(node:14931) ExperimentalWarning: buffer.Blob is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Your app address is: 0x9Cd52742EA0ec66190E22645d0F0275dFFc0D15E
+✅ Successfully deployed bundleDrop module, address: 0xBE94dDaDa4e8021aDF1f29553fcF4346429211FB
+✅ bundleDrop metadata: {
+  metadata: {
+    name: 'NarutoDAO Membership',
+    description: 'A DAO for fans of Naruto.',
+    image: 'https://cloudflare-ipfs.com/ipfs/bafybeicuuhilocc2tskhnvbwjqarsc5k7flfqdr4ifvwxct32vzjmb3sam',
+    primary_sale_recipient_address: '0x0000000000000000000000000000000000000000',
+    uri: 'ipfs://bafkreieti3mpdd3pytt3v6vxbc3rki2ja6qpbblfznmup2tnw5mghrihnu'
+  },
+  address: '0xBE94dDaDa4e8021aDF1f29553fcF4346429211FB',
+  type: 11
+}
+
+
+$ node scripts/5-deploy-token.js
+(node:15415) ExperimentalWarning: buffer.Blob is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Your app address is: 0x9Cd52742EA0ec66190E22645d0F0275dFFc0D15E
+✅ Successfully deployed token module, address: 0xb91a95F74A0eC4674292FeA78e625495CA5AD947
+
+
+$ node scripts/8-deploy-vote.js
+(node:17408) ExperimentalWarning: buffer.Blob is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Your app address is: 0x9Cd52742EA0ec66190E22645d0F0275dFFc0D15E
+✅ Successfully deployed vote module, address: 0xA1cb2299b2A5eD459aE8aD64382993024e311956
+
